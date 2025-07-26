@@ -1,20 +1,23 @@
-# dependencies
+
+# Node modules
 node_modules/
 
-# production
+# Production
 dist/
 build/
 
-# environment variables
+# Environment variables
 .env
 .env.*.local
 
-# logs
+# Logs
+logs/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS generated
+# OS files
 .DS_Store
 
 # Vite cache
@@ -23,3 +26,7 @@ yarn-error.log*
 # Optional IDE config files
 .vscode/
 .idea/
+
+# Dependency lock files (optional if using only npm or yarn)
+package-lock.json
+yarn.lock
